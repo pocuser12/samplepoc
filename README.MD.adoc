@@ -1,0 +1,48 @@
+== What you'll build
+
+This guide will take you through creating a "helloworld" rest api end point using Spring Boot. 
+it will also create 5 other rest point
+You'll build a service that accepts an HTTP GET request
+You'll build a service that accepts an HTTP POST request
+You'll build a service that accepts an HTTP DELETE request
+
+
+== What you'll need
+
+java_version: 1.8
+apache-maven-3.5.3 
+
+
+== Build project 
+===================
+run below command in root directory 
+
+./mvn clean install
+ 
+
+== Create an executable main class
+
+
+run below command to run service 
+javac HelloWorldApplication.java
+java HelloWorldApplicaition
+ 
+ 
+== test service with GET, POST and DELETE methods 
+----
+$ curl http://localhost:9000/helloworld
+$ curl http://localhost:9000/helloworld
+$ curl http://localhost:9000/helloworld/10
+----
+
+
+== test service to get data from other service 
+----
+$ curl http://localhost:9000/helloworld/detail
+----
+
+== test service to generate fibonacci series as array to pass any number as a part of path variable. 
+----
+$ curl http://localhost:9000/helloworld/fibonacci/10 
+----
+

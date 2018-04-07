@@ -1,0 +1,12 @@
+com\poc\service\DemoService$1.class
+com\poc\controller\BaseRestController.class
+com\poc\config\WebAppInitializer.class
+com\poc\model\UserDetail.class
+com\poc\dao\DemoDAO.class
+com\poc\HelloWorldApplication.class
+com\poc\model\Response.class
+com\poc\model\Response$Status.class
+com\poc\service\DemoService.class
+com\poc\util\EventCode.class
+com\poc\config\AppConfig.class
+com\poc\controller\HelloWorldController.class
